@@ -2,5 +2,8 @@
 
 int main()
 {
-  printf("Aplikacja");
+  int wybor;
+	scanf("%i", &wybor);
+  printf("Liczba: %i", wybor);
+  return 0;
 }
